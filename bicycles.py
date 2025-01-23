@@ -5,3 +5,5 @@ print(bicycles[0].title())
 print(bicycles[3])
 
 # Last item on list can be written as -1
+
+print(f"My first bicycle was a {bicycles[2].title()}")
