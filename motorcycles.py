@@ -44,3 +44,6 @@ print(f"The last motorcycle I owned was a {last_owned.title()}")
 motorcycles = ['honda', 'yahama', 'suzuki']
 first_owned = motorcycles.pop(0)
 print(f"The first motorcycle I ever owned was a {first_owned.title()}")
+
+motorcycles.remove('yahama')
+print(motorcycles)
