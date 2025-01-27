@@ -47,3 +47,7 @@ print(f"The first motorcycle I ever owned was a {first_owned.title()}")
 
 motorcycles.remove('yahama')
 print(motorcycles)
+
+# Avoiding index errors when working with lists
+motorcycles = ['honda', 'yahama', 'suzuki']
+print(motorcycles[3]) # This will cause an index error because there is no index 3 in the list
