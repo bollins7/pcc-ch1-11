@@ -14,3 +14,6 @@ print(f"So sorry you can't come {guest_list.pop(2)}")
 
 guest_list.pop(1)
 print(f"So sorry you can't come {guest_list.pop(0)}")
+
+# Guest list is now empty
+print(f"The number of guests invited is {len(guest_list)}")
